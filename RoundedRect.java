@@ -34,8 +34,8 @@ public static void drawRoundedRect(double x, double y, double x1, double y1, dou
         GL11.glScaled(2.0D, 2.0D, 2.0D);
 
         GL11.glPopAttrib();
-    }```
-```public static void setColor(int color) {
+    }
+public static void setColor(int color) {
         float a = (color >> 24 & 0xFF) / 255.0F;
         float r = (color >> 16 & 0xFF) / 255.0F;
         float g = (color >> 8 & 0xFF) / 255.0F;
